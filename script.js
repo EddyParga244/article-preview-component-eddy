@@ -1,6 +1,6 @@
-let button = document.querySelector(".share-circle");
-let share = document.querySelector(".share");
-let socials = document.querySelector(".socials");
+const button = document.querySelector(".share-circle");
+const share = document.querySelector(".share");
+const socials = document.querySelector(".socials");
 
 button.addEventListener("click", function(){
     button.classList.toggle("active");
